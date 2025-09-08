@@ -20,7 +20,7 @@ app:
   version: "1.0"
 
 accounts:
-  message: "test message"
+  message: "TEST MESSAGE"
   details:
     name: "Kuan"
     email: "test@example.com"
