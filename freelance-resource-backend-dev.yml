@@ -6,6 +6,8 @@ spring:
       on-profile: dev
   application:
     name: freelance-resource-backend
+    config:
+      import: configserver:http://localhost:8071
   datasource:
     url: jdbc:mysql://localhost:3306/user
     username: root
@@ -17,7 +19,17 @@ spring:
       resourceserver:
         jwt:
           jwk-set-uri: http://localhost:9000/oauth2/jwks
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 app:
   version: "1.0"
 
