@@ -6,8 +6,6 @@ spring:
       on-profile: dev
   application:
     name: freelance-resource-backend
-    config:
-      import: configserver:http://localhost:8071
   datasource:
     url: jdbc:mysql://localhost:3306/user
     username: root
@@ -34,7 +32,7 @@ app:
   version: "1.0"
 
 accounts:
-  message: "TEST MESSAGE DEV"
+  message: "test message dev"
   details:
     name: "Kuan"
     email: "test@example.com"
