@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/freelance-resource-backend-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/freelance-resource-backend-dev.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +62,7 @@
       <updated>1757059258908</updated>
       <workItem from="1757059260031" duration="2196000" />
       <workItem from="1757141117562" duration="8697000" />
-      <workItem from="1757377111106" duration="4324000" />
+      <workItem from="1757377111106" duration="4353000" />
     </task>
     <servers />
   </component>
