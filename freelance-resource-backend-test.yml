@@ -6,6 +6,11 @@ spring:
       on-profile: test
   application:
     name: freelance-resource-backend
+  cloud:
+    config:
+      enabled: true
+    bus:
+      enabled: true
   datasource:
     url: "jdbc:mysql://${DATABASE_HOST:localhost}:${DATABASE_PORT:3306}/${DATABASE_NAME:user}"
     username: root
@@ -32,6 +37,9 @@ eureka:
         defaultZone: http://localhost:8761/eureka/
 
 management:
+  health:
+    rabbit:
+      enabled: true
   info:
     env:
       enabled: true
