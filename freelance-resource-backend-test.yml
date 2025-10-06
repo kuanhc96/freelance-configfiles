@@ -59,7 +59,7 @@ app:
   version: "1.0"
 
 accounts:
-  message: "test message DEV"
+  message: "test message TEST"
   details:
     name: "Kuan"
     email: "test@example.com"
