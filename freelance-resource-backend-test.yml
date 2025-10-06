@@ -7,7 +7,7 @@ spring:
   application:
     name: freelance-resource-backend
   datasource:
-    url: "jdbc:mysql://${DATABASE_HOST:db}:${DATABASE_PORT:3306}/${DATABASE_NAME:user}"
+    url: "jdbc:mysql://${DATABASE_HOST:localhost}:${DATABASE_PORT:3306}/${DATABASE_NAME:user}"
     username: root
     password: root
   jpa:
@@ -16,12 +16,20 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: "${JWK_SET_URI:http://auth:9000/oauth2/jwks}"
+          jwk-set-uri: "${JWK_SET_URI:http://localhost:9000/oauth2/jwks}"
   rabbitmq:
     host: localhost
     port: 5672
     username: guest
     password: guest
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+        defaultZone: http://localhost:8761/eureka/
 
 management:
   info:
