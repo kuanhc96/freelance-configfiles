@@ -1,0 +1,60 @@
+server:
+  port: 9000
+spring:
+  config:
+    activate:
+      on-profile: qa
+  application:
+    name: freelance_authserver
+  cloud:
+    config:
+      enabled: true
+    bus:
+      enabled: true
+  datasource:
+    url: "jdbc:mysql://${DATABASE_HOST:db}:${DATABASE_PORT:3306}/${DATABASE_NAME:user}"
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: rabbit
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+        defaultZone: http://eureka:8761/eureka/
+
+management:
+  health:
+    rabbit:
+      enabled: true
+  info:
+    env:
+      enabled: true
+  endpoint:
+    shutdown:
+      access: unrestricted
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+info:
+  app:
+    name: freelance_authserver
+    description: "Freelance Auth Server"
+    version: "1.0.0"
+app:
+  version: "1.0"
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+  pattern:
+    console: "%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %msg%n"
