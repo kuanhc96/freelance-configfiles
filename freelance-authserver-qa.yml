@@ -35,6 +35,10 @@ management:
   health:
     rabbit:
       enabled: true
+    readinessstate:
+      enabled: true
+    livenessstate:
+      enabled: true
   info:
     env:
       enabled: true
