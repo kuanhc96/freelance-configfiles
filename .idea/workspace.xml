@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/authentication-server-test.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +81,7 @@
       <workItem from="1761229812318" duration="3821000" />
       <workItem from="1761532952926" duration="1751000" />
       <workItem from="1762305041429" duration="2389000" />
-      <workItem from="1762479407346" duration="812000" />
+      <workItem from="1762479407346" duration="1604000" />
     </task>
     <servers />
   </component>

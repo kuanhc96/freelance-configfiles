@@ -1,6 +1,21 @@
 server:
   port: 8889
 spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          authentication-server:
+            client-id: "${CLIENT_ID}"
+            client-secret: "${CLIENT_SECRET}"
+            scope: USER_MANAGEMENT_SERVER
+            authorization-grant-type: client_credentials
+        provider:
+          authentication-server:
+            token-uri: "${TOKEN_URI:http://localhost:9000/oauth2/token}"
+      resourceserver:
+        jwt:
+          jwk-set-uri: "${JWK_SET_URI:http://localhost:9000/oauth2/jwks}"
   config:
     activate:
       on-profile: test
