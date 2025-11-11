@@ -25,6 +25,9 @@ spring:
             client-secret: "${CLIENT_SECRET}"
             scope: USER_MANAGEMENT_SERVER
             authorization-grant-type: client_credentials
+        provider:
+          freelance-authserver:
+            token-uri: "${TOKEN_URI:http://localhost:9000/oauth2/token}"
 eureka:
   instance:
     prefer-ip-address: true
