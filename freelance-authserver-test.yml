@@ -16,6 +16,14 @@ spring:
     port: 5672
     username: guest
     password: guest
+  security:
+    client:
+      registration:
+        freelance-resource-backend:
+          client-id: "${CLIENT_ID}"
+          client-secret: "${CLIENT_SECRET}"
+          scope: USER_MANAGEMENT_SERVER
+          authorization-grant-type: client_credentials
 eureka:
   instance:
     prefer-ip-address: true
