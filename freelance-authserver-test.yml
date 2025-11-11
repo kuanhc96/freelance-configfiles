@@ -11,12 +11,6 @@ spring:
       enabled: true
     bus:
       enabled: true
-  datasource:
-    url: "jdbc:mysql://${DATABASE_HOST:localhost}:${DATABASE_PORT:3306}/${DATABASE_NAME:user}"
-    username: root
-    password: root
-  jpa:
-    show-sql: true
   rabbitmq:
     host: localhost
     port: 5672
