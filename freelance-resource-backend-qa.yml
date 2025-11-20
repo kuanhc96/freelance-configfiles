@@ -12,6 +12,13 @@ spring:
     show-sql: "${JPA_SHOW_SQL:false}"
   security:
     oauth2:
+      client:
+        registration:
+          freelance-resource-backend:
+            client-id: "${CLIENT_ID}"
+            client-secret: "${CLIENT_SECRET}"
+            scope: USER_MANAGEMENT_SERVER
+            authorization-grant-type: client_credentials
       resourceserver:
         jwt:
           jwk-set-uri: "${JWK_SET_URI:http://freelance-authserver:9000/oauth2/jwks}"
