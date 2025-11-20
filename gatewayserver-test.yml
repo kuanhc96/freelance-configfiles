@@ -1,6 +1,35 @@
 server:
   port: 8072
 
+spring:
+  config:
+    activate:
+      on-profile: test
+    application:
+      name: gatewayserver
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true
+              lower-case-service-id: true
+          globalcors:
+            cors-configurations:
+              '[/**]':
+                allowedOrigins: "*"
+                allowedMethods:
+                  - GET
+                  - POST
+                  - PUT
+                  - DELETE
+                  - OPTIONS
+                  - PATCH
+                allowedHeaders: "*"
+
 eureka:
   instance:
     prefer-ip-address: true
