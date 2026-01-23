@@ -10,6 +10,10 @@ spring:
   main:
     web-application-type: reactive
   cloud:
+    config:
+      enabled: true
+    bus:
+      enabled: true
     gateway:
       server:
         webflux:
@@ -17,19 +21,29 @@ spring:
             locator:
               enabled: true
               lower-case-service-id: true
-          globalcors:
-            cors-configurations:
-              '[/**]':
-                allowedOrigins: "*"
-                allowedMethods:
-                  - GET
-                  - POST
-                  - PUT
-                  - DELETE
-                  - OPTIONS
-                  - PATCH
-                allowedHeaders: "*"
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  cache:
+    type: redis
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    gateway:
+      access: unrestricted
+  info:
+    env:
+      enabled: true
 eureka:
   instance:
     prefer-ip-address: true

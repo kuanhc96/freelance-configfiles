@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/freelance-resource-backend-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/freelance-resource-backend-qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver-test.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/chenkuansk/work/freelanceApp/configfiles&quot;,
@@ -55,8 +56,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
       </set>
     </attachedChunks>
   </component>
@@ -86,6 +87,11 @@
       <workItem from="1762479407346" duration="3215000" />
       <workItem from="1762842558354" duration="2046000" />
       <workItem from="1762858456509" duration="4223000" />
+      <workItem from="1763620809554" duration="1633000" />
+      <workItem from="1764085054737" duration="1297000" />
+      <workItem from="1766126965957" duration="641000" />
+      <workItem from="1768375665368" duration="636000" />
+      <workItem from="1769131341165" duration="1088000" />
     </task>
     <servers />
   </component>
