@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend-for-frontend-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-for-frontend-qa.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +91,7 @@
       <workItem from="1768375665368" duration="636000" />
       <workItem from="1769131341165" duration="5863000" />
       <workItem from="1769408329616" duration="4729000" />
-      <workItem from="1769571791335" duration="4262000" />
+      <workItem from="1769571791335" duration="6827000" />
     </task>
     <servers />
   </component>
