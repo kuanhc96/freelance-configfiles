@@ -23,7 +23,7 @@ spring:
         jwt:
           jwk-set-uri: "${JWK_SET_URI:http://freelance-authserver:9000/oauth2/jwks}"
   rabbitmq:
-    host: localhost
+    host: rabbit
     port: 5672
     username: guest
     password: guest
