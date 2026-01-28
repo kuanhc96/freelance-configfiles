@@ -27,4 +27,9 @@ management:
   info:
     env:
       enabled: true
-
+redis:
+  location: http://redis:6379
+authserver:
+  location: http://freelance-authserver:9000
+client:
+  location: http://localhost:8080

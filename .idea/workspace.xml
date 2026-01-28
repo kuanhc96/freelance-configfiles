@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/gatewayserver-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver-test.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bc6b63d3-d3c4-4586-9d75-42144d72bb26" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,8 +54,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
-        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
       </set>
     </attachedChunks>
   </component>
@@ -91,7 +89,9 @@
       <workItem from="1764085054737" duration="1297000" />
       <workItem from="1766126965957" duration="641000" />
       <workItem from="1768375665368" duration="636000" />
-      <workItem from="1769131341165" duration="1088000" />
+      <workItem from="1769131341165" duration="5863000" />
+      <workItem from="1769408329616" duration="4729000" />
+      <workItem from="1769571791335" duration="1712000" />
     </task>
     <servers />
   </component>

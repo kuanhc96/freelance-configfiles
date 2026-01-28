@@ -52,3 +52,5 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://eurekaserver:8761/eureka/
+redis:
+  location: http://redis:6379
