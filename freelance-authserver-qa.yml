@@ -12,7 +12,7 @@ spring:
     bus:
       enabled: true
   datasource:
-    url: "jdbc:mysql://${DATABASE_HOST:db}:${DATABASE_PORT:3306}/${DATABASE_NAME:user}"
+    url: "jdbc:mysql://${DATABASE_HOST:db}:${DATABASE_PORT:3307}/${DATABASE_NAME:freelance-auth}"
     username: root
     password: root
   jpa:
