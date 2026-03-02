@@ -40,6 +40,8 @@ management:
 redis:
   location: http://redis:6379
 authserver:
-  location: http://freelance-authserver:9000
+  location:
+    internal: http://freelance-authserver:9000
+    external: http://localhost:9000
 client:
   location: http://localhost:8080
